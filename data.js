@@ -112,7 +112,7 @@ var data = {
         {
             Name: "Bahrain Grand Prix",
             Date: "2021-03-28",
-            Finish: [44, 33, 77, 4, 11, 16, 3, 55, 22, 18, 7, 99, 31, 5, 63, 10, 6, 47, 14, 9],
+            Finish: [44, 33, 77, 4, 11, 16, 3, 55, 22, 18, 7, 99, 31, 63, 5, 10, 6, 47, 14, 9],
             Picks: [
                 { Player: "Nick", Drivers: [4, 99, 11] },
                 { Player: "Bridget", Drivers: [18, 63, 44] },
