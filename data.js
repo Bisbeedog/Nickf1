@@ -114,11 +114,11 @@ var data = {
             Date: "2021-03-28",
             Finish: [44, 33, 77, 4, 11, 16, 3, 55, 22, 18, 7, 99, 31, 63, 5, 10, 6, 47, 14, 9],
             Picks: [
-                { Player: "Nick", Drivers: [4, 99, 11] },
-                { Player: "Bridget", Drivers: [18, 63, 44] },
-                { Player: "DOD", Drivers: [33, 14, 22] },
-                { Player: "Logan", Drivers: [77, 5, 31] },
-                { Player: "Pud", Drivers: [3, 16, 7] }
+                { Player: "Nick", Drivers: [4, 11, 99] },
+                { Player: "Bridget", Drivers: [44, 18, 63] },
+                { Player: "DOD", Drivers: [33, 22, 14] },
+                { Player: "Logan", Drivers: [77, 31, 5] },
+                { Player: "Pud", Drivers: [16, 3, 7] }
             ]
         },
         {

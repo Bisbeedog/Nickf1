@@ -119,7 +119,10 @@
                 var currentRace = data.Race[raceIndex];
                 if (currentRace.Finish) {
                     var currentPoints = 15;
-
+                    var picksIndex;
+                    for(pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
+                        currentRace.Picks[pickIndex].DriverPicks = [0, 0, 0];
+                    }
                     var positionIndex;
                     for (positionIndex = 0; positionIndex < currentRace.Finish.length; positionIndex++) {
                         var matchCount = 0;
@@ -132,6 +135,9 @@
                             var pickDriverIndex;
                             for (pickDriverIndex = 0; pickDriverIndex < currentPick.Drivers.length; pickDriverIndex++) {
                                 if (currentRace.Finish[positionIndex] == currentPick.Drivers[pickDriverIndex]) {
+
+                                    currentPick.DriverPicks[pickDriverIndex] = currentPoints;
+
 
                                     // Points per race
                                     if (currentPick.Points)
@@ -154,6 +160,10 @@
                                         else
                                             driver.Points = currentPoints;
                                     }
+
+                                    // Adding Points per Driver per Race
+
+
                                     matchCount += 1;
                                 }
                             }
@@ -177,6 +187,13 @@
                 var bPoints = b.Points || 0;
                 return bPoints - aPoints;
             });
+            for(var raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
+                if(data.Race[raceIndex].Picks){
+                data.Race[raceIndex].Picks.sort(function (a, b) {
+                    return b.Points - a.Points;
+                });
+            }
+            }
         }
         SortData();
         function AddPlayerTable() {
@@ -292,7 +309,10 @@
                             var found = data.Driver.find(element => element.Number == currentRace.Picks[playerFinishIndex].Drivers[driverFinishIndex]);
                             driverList += found.Name;
                             if (driverFinishIndex < 2) {
-                                driverList += ", ";
+                                driverList += "(" + currentRace.Picks[playerFinishIndex].DriverPicks[driverFinishIndex] + ")" + ", ";
+                            }
+                            else { 
+                                driverList += "(" + currentRace.Picks[playerFinishIndex].DriverPicks[driverFinishIndex] + ")";
                             }
                         }
                         playerFinishDrivers.innerText = driverList;
