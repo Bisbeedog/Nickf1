@@ -124,14 +124,14 @@ var data = {
         {
             Name: "Emilia-Romagna Grand Prix",
             Date: "2021-04-18",
-            // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
-            // Picks: [
-            //     { Player: "Nick", Drivers: [4, 99, 11] },
-            //     { Player: "Bridget", Drivers: [18, 63, 44] },
-            //     { Player: "DOD", Drivers: [33, 14, 22] },
-            //     { Player: "Logan", Drivers: [77, 5, 31] },
-            //     { Player: "Pud", Drivers: [3, 16, 7] }
-            // ]
+            Finish: [33, 44, 4, 16, 55, 3, 18, 10, 7, 31, 14, 11, 22, 99, 5, 47, 9, 77, 63, 6],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 11, 99] },
+                { Player: "Bridget", Drivers: [44, 18, 63] },
+                { Player: "DOD", Drivers: [33, 14, 22] },
+                { Player: "Logan", Drivers: [31, 5, 77] },
+                { Player: "Pud", Drivers: [16, 3, 7] }
+            ]
         },
         {
             Name: "Portuguese Grand Prix",
