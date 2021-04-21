@@ -124,7 +124,7 @@ var data = {
         {
             Name: "Emilia-Romagna Grand Prix",
             Date: "2021-04-18",
-            Finish: [33, 44, 4, 16, 55, 3, 18, 10, 7, 31, 14, 11, 22, 99, 5, 47, 9, 77, 63, 6],
+            Finish: [33, 44, 4, 16, 55, 3, 10, 18, 31, 14, 11, 22, 7, 99, 5, 47, 9, 77, 63, 6],
             Picks: [
                 { Player: "Nick", Drivers: [4, 11, 99] },
                 { Player: "Bridget", Drivers: [44, 18, 63] },
