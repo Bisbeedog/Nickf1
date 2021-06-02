@@ -182,8 +182,8 @@ var data = {
             // ]
         },
         {
-            Name: "Canadian Grand Prix",
-            Date: "2021-06-13",
+            Name: "French Grand Prix",
+            Date: "2021-06-20",
             // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
             // Picks: [
             //     { Player: "Nick", Drivers: [4, 99, 11] },
@@ -194,7 +194,7 @@ var data = {
             // ]
         },
         {
-            Name: "French Grand Prix",
+            Name: "Styrian Grand Prix",
             Date: "2021-06-27",
             // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
             // Picks: [
