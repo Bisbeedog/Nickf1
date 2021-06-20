@@ -186,8 +186,8 @@ var data = {
             Date: "2021-06-20",
             Finish: [33, 44, 11, 77, 4, 3, 10, 14, 5, 18, 55, 63, 22, 31, 99, 16, 7, 6, 47, 9],
             Picks: [
-                { Player: "Nick", Drivers: [4, 99, 11] },
-                 { Player: "Bridget", Drivers: [18, 63, 44] },
+                { Player: "Nick", Drivers: [11, 4, 99] },
+                 { Player: "Bridget", Drivers: [44, 18, 63] },
                  { Player: "DOD", Drivers: [33, 14, 22] },
                  { Player: "Logan", Drivers: [77, 5, 31] },
                  { Player: "Pud", Drivers: [3, 16, 7] }
