@@ -232,7 +232,7 @@ var data = {
         {
             Name: "Magyar Grand Prix",
             Date: "2021-08-01",
-            Finish: [31, 5, 44, 55, 14, 10, 22, 6, 63, 33, 7, 3, 47, 99, 9, 4, 11, 18, 16, 77],
+            Finish: [31, 44, 55, 14, 10, 22, 6, 63, 33, 7, 3, 47, 99, 9, 4, 11, 18, 16, 77, 5],
             Picks: [
                  { Player: "Nick", Drivers: [99, 4, 11] },
                  { Player: "Bridget", Drivers: [44, 63, 18] },
