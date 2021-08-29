@@ -200,11 +200,13 @@
                                     
                                     if (currentPick.Points) {
                                         currentPick.Points += currentPoints/12;
+                                        Math.Round(currentPick.Points);
                                     
                                     }
-                                    else
+                                    else {
                                         currentPick.Points = currentPoints/12; 
-                                        
+                                        Math.Round(currentPick.Points);
+                                    }
 
                                     // Points per player 
                                     const player = data.Player.find(p => p.Name == currentPick.Player);
