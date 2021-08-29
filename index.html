@@ -175,9 +175,10 @@
                     }
                 } else {
                     var currentPoints = 15;
+                    var Spa = data.Race[11];
                     var picksIndex;
                     for(pickIndex = 0; pickIndex < 5; pickIndex++) {
-                        currentRace.Picks[pickIndex].DriverPicks = [0, 0, 0];
+                        Spa.Picks[pickIndex].DriverPicks = [0, 0, 0];
                     }
                     var positionIndex;
                     for (positionIndex = 0; positionIndex < currentRace.Finish.length; positionIndex++) {
