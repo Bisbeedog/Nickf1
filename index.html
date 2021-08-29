@@ -117,7 +117,7 @@
             var raceIndex;
             for (raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
                 var currentRace = data.Race[raceIndex];
-                if (currentRace.Finish && ("Belgian Grand Prix" != currentRace[Name]) {
+                if (currentRace.Finish) {
                     var currentPoints = 15;
                     var picksIndex;
                     for(pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
@@ -172,11 +172,10 @@
                         currentPoints -= matchCount;
 
                     }
+                } else {
+                    
                 }
 
-
-            }
-            else{
 
             }
         }
