@@ -181,13 +181,13 @@
                         Spa.Picks[pickIndex].DriverPicks = [0, 0, 0];
                     }
                     var positionIndex;
-                    for (positionIndex = 0; positionIndex < currentRace.Finish.length; positionIndex++) {
+                    for (positionIndex = 0; positionIndex < Spa.Finish.length; positionIndex++) {
                         var matchCount = 0;
 
                         // see if anyone has the current driver
                         var pickIndex;
-                        for (pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
-                            var currentPick = currentRace.Picks[pickIndex];
+                        for (pickIndex = 0; pickIndex < Spa.Picks.length; pickIndex++) {
+                            var currentPick = Spa.Picks[pickIndex];
 
                             var pickDriverIndex;
                             for (pickDriverIndex = 0; pickDriverIndex < currentPick.Drivers.length; pickDriverIndex++) {
