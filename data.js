@@ -241,7 +241,7 @@ var data = {
                  { Player: "Pud", Drivers: [7, 3, 16] }
              ]
         },
-        {
+        /* {
             Name: "Belgian Grand Prix",
             Date: "2021-08-29",
             Finish: [33, 63, 44, 3, 5, 10, 31, 16, 6, 55, 14, 77, 99, 4, 22, 47, 9, 18, 7, 11],
@@ -252,7 +252,7 @@ var data = {
                  { Player: "Logan", Drivers: [5, 31, 77] },
                  { Player: "Pud", Drivers: [3, 10, 16] }
              ]
-        },
+        }, */
         {
             Name: "Dutch Grand Prix",
             Date: "2021-09-05",
