@@ -199,9 +199,11 @@
                                     // Points per race
                                     
                                     if (currentPick.Points)
-                                        currentPick.Points += Math.round(currentPoints/1.2)/10;
+                                        currentPick.Points += currentPoints/12;
+                                        Math.round(currentPick.Points*10)/10;
                                     else
                                         currentPick.Points = currentPoints/12; 
+                                        Math.round(currentPick.Points*10)/10;
 
                                     // Points per player 
                                     const player = data.Player.find(p => p.Name == currentPick.Player);
