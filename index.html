@@ -214,7 +214,7 @@
                                     if (matchCount == 0) {
                                         const driver = data.Driver.find(d => d.Number == Spa.Finish[positionIndex]);
                                         if (driver.Points)
-                                            driver.Points += currentPoints;
+                                            driver.Points += currentPoints/24;
                                         else
                                             driver.Points = currentPoints;
                                     }
