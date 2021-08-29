@@ -290,20 +290,8 @@ var data = {
             // ]
         },
         {
-            Name: "Singapore Grand Prix",
+            Name: "Turkish Grand Prix",
             Date: "2021-10-03",
-            // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
-            // Picks: [
-            //     { Player: "Nick", Drivers: [4, 99, 11] },
-            //     { Player: "Bridget", Drivers: [18, 63, 44] },
-            //     { Player: "DOD", Drivers: [33, 14, 22] },
-            //     { Player: "Logan", Drivers: [77, 5, 31] },
-            //     { Player: "Pud", Drivers: [3, 16, 7] }
-            // ]
-        },
-        {
-            Name: "Japanese Grand Prix",
-            Date: "2021-10-10",
             // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
             // Picks: [
             //     { Player: "Nick", Drivers: [4, 99, 11] },
@@ -350,7 +338,7 @@ var data = {
             // ]
         },
         {
-            Name: "Australian Grand Prix",
+            Name: "Too be Announced Grand Prix",
             Date: "2021-11-21",
             // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
             // Picks: [
