@@ -195,15 +195,15 @@
 
                                     currentPick.DriverPicks[pickDriverIndex] = currentPoints;
                                     
-                                    currentPoints=currentPoints/12;
+                                    
                                     // Points per race
                                     
                                     if (currentPick.Points) {
-                                        currentPick.Points += Math.round(currentPoints*10)/10;
+                                        currentPick.Points += Math.round(currentPoints/12);
                                     
                                     }
                                     else
-                                        currentPick.Points = Math.round(currentPoints*10)/10; 
+                                        currentPick.Points = Math.round(currentPoints/12); 
                                         
 
                                     // Points per player 
