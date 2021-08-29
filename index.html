@@ -195,23 +195,23 @@
 
                                     currentPick.DriverPicks[pickDriverIndex] = currentPoints;
                                     
-                                    currentPoints = currentPoints/12;
-                                    Math.round(currentPoints*10)/12;
 
                                     // Points per race
                                     
                                     if (currentPick.Points) {
-                                        currentPick.Points += currentPoints;
+                                        currentPoints =  += currentPoints/12;
+                                        currentPick.Points += Math.round(currentPoints*10)/10;
                                     
                                     }
                                     else
-                                        currentPick.Points = currentPoints; 
+                                    currentPoints =  += currentPoints/12;
+                                        currentPick.Points = Math.round(currentPoints*10)/10; 
                                         
 
                                     // Points per player 
                                     const player = data.Player.find(p => p.Name == currentPick.Player);
                                     if (player.Points)
-                                        player.Points += currentPoints;
+                                        player.Points += currentPoints/12;
                                     else
                                         player.Points = currentPoints;
 
@@ -219,7 +219,7 @@
                                     if (matchCount == 0) {
                                         const driver = data.Driver.find(d => d.Number == Spa.Finish[positionIndex]);
                                         if (driver.Points)
-                                            driver.Points += currentPoints;
+                                            driver.Points += currentPoints/12;
                                         else
                                             driver.Points = currentPoints;
                                     }
