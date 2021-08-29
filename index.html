@@ -212,7 +212,7 @@
 
                                     // Points per driver
                                     if (matchCount == 0) {
-                                        const driver = data.Driver.find(d => d.Number == currentRace.Finish[positionIndex]);
+                                        const driver = data.Driver.find(d => d.Number == Spa.Finish[positionIndex]);
                                         if (driver.Points)
                                             driver.Points += currentPoints;
                                         else
