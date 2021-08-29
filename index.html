@@ -199,7 +199,7 @@
                                     // Points per race
                                     
                                     if (currentPick.Points)
-                                        currentPick.Points += currentPoints/12;
+                                        currentPick.Points += (currentPoints/12).toFixed(1);
                                     else
                                         currentPick.Points = currentPoints/12; 
 
