@@ -132,7 +132,6 @@
                         for (pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
                             var currentPick = currentRace.Picks[pickIndex];
                             var pickDriverIndex;
-                            if(currentRace.Name == 0) {
                             for (pickDriverIndex = 0; pickDriverIndex < currentPick.Drivers.length; pickDriverIndex++) {
                                 if (currentRace.Finish[positionIndex] == currentPick.Drivers[pickDriverIndex]) {
 
@@ -168,7 +167,6 @@
                                     matchCount += 1;
                                 }
                             }
-                        }
                         }
 
                         currentPoints -= matchCount;
