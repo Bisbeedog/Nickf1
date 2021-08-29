@@ -117,6 +117,7 @@
             var raceIndex;
             for (raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
                 var currentRace = data.Race[raceIndex];
+                if(currentRace[Name] = "Belgian Grand Prix"){
                 if (currentRace.Finish) {
                     var currentPoints = 15;
                     var picksIndex;
@@ -131,7 +132,6 @@
                         var pickIndex;
                         for (pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
                             var currentPick = currentRace.Picks[pickIndex];
-
                             var pickDriverIndex;
                             for (pickDriverIndex = 0; pickDriverIndex < currentPick.Drivers.length; pickDriverIndex++) {
                                 if (currentRace.Finish[positionIndex] == currentPick.Drivers[pickDriverIndex]) {
@@ -177,7 +177,7 @@
 
                 }
 
-
+            }
             }
         }
         RacePoints();
