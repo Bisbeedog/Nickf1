@@ -198,9 +198,10 @@
 
                                     // Points per race
                                     
-                                    if (currentPick.Points)
+                                    if (currentPick.Points) {
                                         currentPick.Points += currentPoints/12;
                                         Math.round(currentPick.Points*10)/10;
+                                    }
                                     else
                                         currentPick.Points = currentPoints/12; 
                                         Math.round(currentPick.Points*10)/10;
