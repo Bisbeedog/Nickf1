@@ -140,10 +140,12 @@
 
 
                                     // Points per race
-                                    if (currentPick.Points)
-                                        currentPick.Points += currentPoints;
-                                    else
-                                        currentPick.Points = currentPoints;
+                                    if(currentRace.Name == "Belgian Grand Prix") {
+                                        if (currentPick.Points)
+                                            currentPick.Points += currentPoints;
+                                        else
+                                            currentPick.Points = currentPoints;
+                                    }
 
                                     // Points per player 
                                     const player = data.Player.find(p => p.Name == currentPick.Player);
@@ -173,7 +175,7 @@
 
                     }
                 } else {
-                    
+
                 }
 
 
