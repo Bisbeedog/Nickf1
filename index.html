@@ -174,7 +174,7 @@
 
                     }
                 } else {
-                    var currentPoints = 7.5;
+                    var currentPoints = 15;
                     var Spa = data.Race[11];
                     var picksIndex;
                     for(pickIndex = 0; pickIndex < 5; pickIndex++) {
@@ -199,9 +199,9 @@
                                     // Points per race
                                     
                                     if (currentPick.Points)
-                                        currentPick.Points += currentPoints;
+                                        currentPick.Points += currentPoints/24;
                                     else
-                                        currentPick.Points = currentPoints; 
+                                        currentPick.Points = currentPoints/24; 
 
                                     // Points per player 
                                     const player = data.Player.find(p => p.Name == currentPick.Player);
