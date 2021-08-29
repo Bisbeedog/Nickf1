@@ -128,16 +128,16 @@
                         var matchCount = 0;
 
                         // see if anyone has the current driver
-                        var pickIndex;
+                       /*  var pickIndex;
                         for (pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
                             var currentPick = currentRace.Picks[pickIndex];
-
-                            var pickDriverIndex;
+/*  */
+                            /* var pickDriverIndex;
                             for (pickDriverIndex = 0; pickDriverIndex < currentPick.Drivers.length; pickDriverIndex++) {
                                 if (currentRace.Finish[positionIndex] == currentPick.Drivers[pickDriverIndex]) {
 
                                     currentPick.DriverPicks[pickDriverIndex] = currentPoints;
-
+ */
 
                                     // Points per race
                                     
@@ -147,7 +147,7 @@
                                         currentPick.Points = currentPoints; */
 
                                     // Points per player 
-                                    const player = data.Player.find(p => p.Name == currentPick.Player);
+                                  /*   const player = data.Player.find(p => p.Name == currentPick.Player);
                                     if (player.Points)
                                         player.Points += currentPoints;
                                     else
@@ -160,14 +160,14 @@
                                             driver.Points += currentPoints;
                                         else
                                             driver.Points = currentPoints;
-                                    }
+                                    } */
 
                                     // Adding Points per Driver per Race
 
-
+/* 
                                     matchCount += 1;
                                 }
-                            }
+                            } */ 
                         }
 
                         currentPoints -= matchCount;
