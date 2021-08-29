@@ -118,7 +118,7 @@
             for (raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
                 var currentRace = data.Race[raceIndex];
                 if (currentRace.Finish && raceIndex != 11) {
-                    var currentPoints = 7.5;
+                    var currentPoints = 15;
                     var picksIndex;
                     for(pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
                         currentRace.Picks[pickIndex].DriverPicks = [0, 0, 0];
@@ -174,7 +174,7 @@
 
                     }
                 } else {
-                    var currentPoints = 15;
+                    var currentPoints = 7.5;
                     var Spa = data.Race[11];
                     var picksIndex;
                     for(pickIndex = 0; pickIndex < 5; pickIndex++) {
