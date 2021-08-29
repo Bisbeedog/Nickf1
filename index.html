@@ -174,7 +174,61 @@
 
                     }
                 } else {
-                    
+                    var currentPoints = 15;
+                    var picksIndex;
+                    for(pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
+                        currentRace.Picks[pickIndex].DriverPicks = [0, 0, 0];
+                    }
+                    var positionIndex;
+                    for (positionIndex = 0; positionIndex < currentRace.Finish.length; positionIndex++) {
+                        var matchCount = 0;
+
+                        // see if anyone has the current driver
+                        var pickIndex;
+                        for (pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
+                            var currentPick = currentRace.Picks[pickIndex];
+
+                            var pickDriverIndex;
+                            for (pickDriverIndex = 0; pickDriverIndex < currentPick.Drivers.length; pickDriverIndex++) {
+                                if (currentRace.Finish[positionIndex] == currentPick.Drivers[pickDriverIndex]) {
+
+                                    currentPick.DriverPicks[pickDriverIndex] = currentPoints;
+
+
+                                    // Points per race
+                                    
+                                    if (currentPick.Points)
+                                        currentPick.Points += currentPoints;
+                                    else
+                                        currentPick.Points = currentPoints; 
+
+                                    // Points per player 
+                                    const player = data.Player.find(p => p.Name == currentPick.Player);
+                                    if (player.Points)
+                                        player.Points += currentPoints;
+                                    else
+                                        player.Points = currentPoints;
+
+                                    // Points per driver
+                                    if (matchCount == 0) {
+                                        const driver = data.Driver.find(d => d.Number == currentRace.Finish[positionIndex]);
+                                        if (driver.Points)
+                                            driver.Points += currentPoints;
+                                        else
+                                            driver.Points = currentPoints;
+                                    }
+
+                                    // Adding Points per Driver per Race
+
+
+                                    matchCount += 1;
+                                }
+                            }
+                        }
+
+                        currentPoints -= matchCount;
+
+                    }
                 }
 
 
