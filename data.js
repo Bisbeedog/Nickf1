@@ -106,6 +106,11 @@ var data = {
             Number: 77,
             Name: "Valtteri Bottas",
             Team: "Mercedes"
+        },
+        {
+            Number: 88,
+            Name: "Robert Kubica",
+            Team: "Alfa Romeo"
         }
     ],
     Race: [
@@ -256,7 +261,7 @@ var data = {
         {
             Name: "Dutch Grand Prix",
             Date: "2021-09-05",
-            Finish: [33, 44, 77, 10, 16, 14, 55, 11, 31, 4, 3, 18, 5, 99, 88, 6, 63, 47, 22, 9],
+            Finish: [33, 44, 77, 10, 16, 14, 55, 11, 31, 4, 3, 18, 5, 99,   , 6, 63, 47, 22, 9],
             Picks: [
                  { Player: "Nick", Drivers: [11, 4, 18] },
                  { Player: "Bridget", Drivers: [44, 55, 63] },
