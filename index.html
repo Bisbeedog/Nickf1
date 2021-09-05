@@ -326,7 +326,7 @@
                     driverOrder.classList = "textDetail";
                     var driverText = "";
                     for (var finishIndex = 0; finishIndex < currentRace.Finish.length; finishIndex++) {
-                        const found = data.Driver.find(element => element.Number == currentRace.Finish[finishIndex]);
+                        found = data.Driver.find(element => element.Number == currentRace.Finish[finishIndex]);
                         driverText += found.Name;
                         if (finishIndex < currentRace.Finish.length - 1) {
                             driverText += ", ";
