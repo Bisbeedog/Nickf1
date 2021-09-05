@@ -234,67 +234,6 @@
 
                     }
                 }
-                else if(raceIndex = 12 && data.Race[12].Finish) {
-                    var currentPoints = 15;
-                    var Zandvoort = data.Race[12];
-                    var picksIndex;
-                    for(pickIndex = 0; pickIndex < 5; pickIndex++) {
-                        Zandvoort.Picks[pickIndex].DriverPicks = [0, 0, 0];
-                    }
-                    var positionIndex;
-                    for (positionIndex = 0; positionIndex < Zandvoort.Finish.length; positionIndex++) {
-                        var matchCount = 0;
-
-                        // see if anyone has the current driver
-                        var pickIndex;
-                        for (pickIndex = 0; pickIndex < Zandvoort.Picks.length; pickIndex++) {
-                            var currentPick = Zandvoort.Picks[pickIndex];
-
-                            var pickDriverIndex;
-                            for (pickDriverIndex = 0; pickDriverIndex < currentPick.Drivers.length; pickDriverIndex++) {
-                                if (Zandvoort.Finish[positionIndex] == currentPick.Drivers[pickDriverIndex]) {
-
-                                    currentPick.DriverPicks[pickDriverIndex] = currentPoints;
-                                    
-
-                                    // Points per race
-                                    
-                                    if (currentPick.Points) {
-                                        currentPick.Points += currentPoints;
-                                    
-                                    }
-                                    else {
-                                        currentPick.Points = currentPoints; 
-                                    }
-
-                                    // Points per player 
-                                    const player = data.Player.find(p => p.Name == currentPick.Player);
-                                    if (player.Points)
-                                        player.Points += currentPoints;
-                                    else
-                                        player.Points = currentPoints;
-
-                                    // Points per driver
-                                    if (matchCount == 0) {
-                                        const driver = data.Driver.find(d => d.Number == Zandvoort.Finish[positionIndex]);
-                                        if (driver.Points)
-                                            driver.Points += currentPoints;
-                                        else
-                                            driver.Points = currentPoints;
-                                    }
-
-                                    // Adding Points per Driver per Race
-
-
-                                    matchCount += 1;
-                                }
-                            }
-                        }
-
-                        currentPoints -= matchCount;
-
-                    }
-                }
 
 
             }
