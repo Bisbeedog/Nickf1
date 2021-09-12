@@ -273,14 +273,14 @@ var data = {
         {
             Name: "Italian Grand Prix",
             Date: "2021-09-12",
-            // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
-            // Picks: [
-            //     { Player: "Nick", Drivers: [4, 99, 11] },
-            //     { Player: "Bridget", Drivers: [18, 63, 44] },
-            //     { Player: "DOD", Drivers: [33, 14, 22] },
-            //     { Player: "Logan", Drivers: [77, 5, 31] },
-            //     { Player: "Pud", Drivers: [3, 16, 7] }
-            // ]
+            Finish: [3, 4, 77, 16, 11, 55, 18, 14, 63, 31, 6, 5, 99, 88, 47, 9, 44, 33, 10, 22],
+            Picks: [
+                 { Player: "Nick", Drivers: [4, 11, 18] },
+                 { Player: "Bridget", Drivers: [55, 18, 44] },
+                 { Player: "DOD", Drivers: [14, 33, 22] },
+                 { Player: "Logan", Drivers: [77, 31, 5] },
+                 { Player: "Pud", Drivers: [3, 16, 10] }
+             ]
         },
         {
             Name: "Russian Grand Prix",
