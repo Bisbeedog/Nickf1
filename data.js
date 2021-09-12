@@ -276,7 +276,7 @@ var data = {
             Finish: [3, 4, 77, 16, 11, 55, 18, 14, 63, 31, 6, 5, 99, 88, 47, 9, 44, 33, 10, 22],
             Picks: [
                  { Player: "Nick", Drivers: [4, 11, 18] },
-                 { Player: "Bridget", Drivers: [55, 18, 44] },
+                 { Player: "Bridget", Drivers: [55, 63, 44] },
                  { Player: "DOD", Drivers: [14, 33, 22] },
                  { Player: "Logan", Drivers: [77, 31, 5] },
                  { Player: "Pud", Drivers: [3, 16, 10] }
