@@ -285,25 +285,25 @@ var data = {
         {
             Name: "Russian Grand Prix",
             Date: "2021-09-26",
-            // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
-            // Picks: [
-            //     { Player: "Nick", Drivers: [4, 99, 11] },
-            //     { Player: "Bridget", Drivers: [18, 63, 44] },
-            //     { Player: "DOD", Drivers: [33, 14, 22] },
-            //     { Player: "Logan", Drivers: [77, 5, 31] },
-            //     { Player: "Pud", Drivers: [3, 16, 7] }
-            // ]
+            Finish: [44, 33, 55, 3, 77, 14, 4, 7, 11, 63, 18, 5, 10, 31, 16, 99, 22, 9, 6, 47],
+            Picks: [
+                 { Player: "Nick", Drivers: [4, 11, 18] },
+                 { Player: "Bridget", Drivers: [44, 55, 63] },
+                 { Player: "DOD", Drivers: [33, 14, 22] },
+                 { Player: "Logan", Drivers: [77, 5, 31] },
+                 { Player: "Pud", Drivers: [3, 10, 16] }
+             ]
         },
         {
             Name: "Turkish Grand Prix",
             Date: "2021-10-03",
             // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
             // Picks: [
-            //     { Player: "Nick", Drivers: [4, 99, 11] },
-            //     { Player: "Bridget", Drivers: [18, 63, 44] },
+            //     { Player: "Nick", Drivers: [4, 11, 18] },
+            //     { Player: "Bridget", Drivers: [55, 63, 44] },
             //     { Player: "DOD", Drivers: [33, 14, 22] },
             //     { Player: "Logan", Drivers: [77, 5, 31] },
-            //     { Player: "Pud", Drivers: [3, 16, 7] }
+            //     { Player: "Pud", Drivers: [3, 16, 10] }
             // ]
         },
         {
@@ -311,11 +311,11 @@ var data = {
             Date: "2021-10-24",
             // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
             // Picks: [
-            //     { Player: "Nick", Drivers: [4, 99, 11] },
-            //     { Player: "Bridget", Drivers: [18, 63, 44] },
+            //     { Player: "Nick", Drivers: [4, 11, 18] },
+            //     { Player: "Bridget", Drivers: [55, 63, 44] },
             //     { Player: "DOD", Drivers: [33, 14, 22] },
             //     { Player: "Logan", Drivers: [77, 5, 31] },
-            //     { Player: "Pud", Drivers: [3, 16, 7] }
+            //     { Player: "Pud", Drivers: [3, 16, 10] }
             // ]
         },
         {
@@ -323,11 +323,11 @@ var data = {
             Date: "2021-10-31",
             // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
             // Picks: [
-            //     { Player: "Nick", Drivers: [4, 99, 11] },
-            //     { Player: "Bridget", Drivers: [18, 63, 44] },
+            //     { Player: "Nick", Drivers: [4, 11, 18] },
+            //     { Player: "Bridget", Drivers: [55, 63, 44] },
             //     { Player: "DOD", Drivers: [33, 14, 22] },
             //     { Player: "Logan", Drivers: [77, 5, 31] },
-            //     { Player: "Pud", Drivers: [3, 16, 7] }
+            //     { Player: "Pud", Drivers: [3, 16, 10] }
             // ]
         },
         {
@@ -335,11 +335,11 @@ var data = {
             Date: "2021-11-07",
             // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
             // Picks: [
-            //     { Player: "Nick", Drivers: [4, 99, 11] },
-            //     { Player: "Bridget", Drivers: [18, 63, 44] },
+            //     { Player: "Nick", Drivers: [4, 11, 18] },
+            //     { Player: "Bridget", Drivers: [55, 63, 44] },
             //     { Player: "DOD", Drivers: [33, 14, 22] },
             //     { Player: "Logan", Drivers: [77, 5, 31] },
-            //     { Player: "Pud", Drivers: [3, 16, 7] }
+            //     { Player: "Pud", Drivers: [3, 16, 10] }
             // ]
         },
         {
@@ -347,11 +347,11 @@ var data = {
             Date: "2021-11-21",
             // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
             // Picks: [
-            //     { Player: "Nick", Drivers: [4, 99, 11] },
-            //     { Player: "Bridget", Drivers: [18, 63, 44] },
+            //     { Player: "Nick", Drivers: [4, 11, 18] },
+            //     { Player: "Bridget", Drivers: [55, 63, 44] },
             //     { Player: "DOD", Drivers: [33, 14, 22] },
             //     { Player: "Logan", Drivers: [77, 5, 31] },
-            //     { Player: "Pud", Drivers: [3, 16, 7] }
+            //     { Player: "Pud", Drivers: [3, 16, 10] }
             // ]
         },
         {
@@ -359,11 +359,11 @@ var data = {
             Date: "2021-12-05",
             // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
             // Picks: [
-            //     { Player: "Nick", Drivers: [4, 99, 11] },
-            //     { Player: "Bridget", Drivers: [18, 63, 44] },
+            //     { Player: "Nick", Drivers: [4, 11, 18] },
+            //     { Player: "Bridget", Drivers: [55, 63, 44] },
             //     { Player: "DOD", Drivers: [33, 14, 22] },
             //     { Player: "Logan", Drivers: [77, 5, 31] },
-            //     { Player: "Pud", Drivers: [3, 16, 7] }
+            //     { Player: "Pud", Drivers: [3, 16, 10] }
             // ]
         },
         {
@@ -371,11 +371,11 @@ var data = {
             Date: "2021-12-12",
             // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
             // Picks: [
-            //     { Player: "Nick", Drivers: [4, 99, 11] },
-            //     { Player: "Bridget", Drivers: [18, 63, 44] },
+            //     { Player: "Nick", Drivers: [4, 11, 18] },
+            //     { Player: "Bridget", Drivers: [55, 63, 44] },
             //     { Player: "DOD", Drivers: [33, 14, 22] },
             //     { Player: "Logan", Drivers: [77, 5, 31] },
-            //     { Player: "Pud", Drivers: [3, 16, 7] }
+            //     { Player: "Pud", Drivers: [3, 16, 10] }
             // ]
         }
     ]
