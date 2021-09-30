@@ -343,7 +343,7 @@ var data = {
             // ]
         },
         {
-            Name: "Qatar",
+            Name: "Qatar Grand Prix",
             Date: "2021-11-21",
             // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
             // Picks: [
