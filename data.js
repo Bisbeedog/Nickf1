@@ -333,14 +333,14 @@ var data = {
         {
             Name: "Brazilian Grand Prix",
             Date: "2021-11-14",
-            // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
-            // Picks: [
-            //     { Player: "Nick", Drivers: [4, 11, 18] },
-            //     { Player: "Bridget", Drivers: [55, 63, 44] },
-            //     { Player: "DOD", Drivers: [33, 14, 22] },
-            //     { Player: "Logan", Drivers: [77, 5, 31] },
-            //     { Player: "Pud", Drivers: [3, 16, 10] }
-            // ]
+            Finish: [44, 33, 77, 11, 16, 55, 10, 31, 14, 4, 5, 7, 63, 99, 22, 6, 9, 47, 3, 18],
+            Picks: [
+                 { Player: "Nick", Drivers: [11, 4, 18] },
+                 { Player: "Bridget", Drivers: [44, 55, 63] },
+                 { Player: "DOD", Drivers: [33, 14, 22] },
+                 { Player: "Logan", Drivers: [77, 31, 5] },
+                 { Player: "Pud", Drivers: [16, 10, 3] }
+            ]
         },
         {
             Name: "Qatar Grand Prix",
