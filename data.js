@@ -357,14 +357,14 @@ var data = {
         {
             Name: "Saudi Arabian Grand Prix",
             Date: "2021-12-05",
-            // Finish: [44, 77, 3, 4, 5, 6, 7, 9, 10, 11, 14, 16, 18, 22, 31, 33, 47, 55, 63, 99],
-            // Picks: [
-            //     { Player: "Nick", Drivers: [4, 11, 18] },
-            //     { Player: "Bridget", Drivers: [55, 63, 44] },
-            //     { Player: "DOD", Drivers: [33, 14, 22] },
-            //     { Player: "Logan", Drivers: [77, 5, 31] },
-            //     { Player: "Pud", Drivers: [3, 16, 10] }
-            // ]
+            Finish: [44, 33, 77, 31, 3, 10, 16, 55, 99, 4, 18, 6, 14, 22, 7, 5, 11, 9, 63, 47],
+            Picks: [
+                { Player: "Nick", Drivers: [4, 18, 11] },
+                { Player: "Bridget", Drivers: [44, 55, 63] },
+                { Player: "DOD", Drivers: [33, 14, 22] },
+                { Player: "Logan", Drivers: [77, 31, 5] },
+                { Player: "Pud", Drivers: [3, 10, 16] }
+             ]
         },
         {
             Name: "Abu Dhabi Grand Prix",
