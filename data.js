@@ -114,7 +114,7 @@ var data = {
         }
     ],
     Race: [
-        /* {
+        {
             Name: "Bahrain Grand Prix",
             Date: "2021-03-28",
             Finish: [44, 33, 77, 4, 11, 16, 3, 55, 22, 18, 7, 99, 31, 63, 5, 10, 6, 47, 14, 9],
@@ -233,7 +233,7 @@ var data = {
                  { Player: "Logan", Drivers: [77, 31, 5] },
                  { Player: "Pud", Drivers: [16, 3, 7] }
              ]
-        }, */
+        },
         {
             Name: "Magyar Grand Prix",
             Date: "2021-08-01",
