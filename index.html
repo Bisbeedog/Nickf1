@@ -27,12 +27,14 @@
         <table class="styled-table">
             <colgroup>
                 <col span="1" style="width: 15%;">
-                <col span="1" style="width: 70%;">
+                <col span="1" style="width: 20%" >
+                <col span="1" style="width: 50%;">
                 <col span="1" style="width: 15%;">
             </colgroup>
             <thead>
                 <tr>
                     <th>Position</th>
+                    <th>Image</th>
                     <th>Name</th>
                     <th>Points</th>
                 </tr>
@@ -43,12 +45,14 @@
         <table class="styled-table">
             <colgroup>
                 <col span="1" style="width: 15%;">
-                <col span="1" style="width: 70%;">
+                <col span="1" style="width: 20%;">
+                <col span="1" style="width: 50%;">
                 <col span="1" style="width: 15%;">
             </colgroup>
             <thead>
                 <tr>
                     <th>Position</th>
+                    <th>Image</th>
                     <th>Name</th>
                     <th>Points</th>
                 </tr>
@@ -204,6 +208,11 @@
                 var playerPosition = document.createElement("td");
                 playerPosition.innerText = playerLoop + 1;
                 newRow.appendChild(playerPosition);
+                var playerImage = document.createElement("td");
+                var img = document.createElement("img");
+                img.src = "./F1 Sprites/" + data.Player[playerLoop].Name + ".png";
+                playerImage.appendChild(img);
+                newRow.appendChild(playerImage);
                 var playerName = document.createElement("td");
                 playerName.innerText = data.Player[playerLoop].Name;
                 newRow.appendChild(playerName);
@@ -224,7 +233,7 @@
                 newRow.appendChild(driverPosition);
                 var driverImage = document.createElement("td");
                 var img = document.createElement("img");
-                img.src = "./F1 Spires/4.png";
+                img.src = "./F1 Sprites/" + data.Driver[driverLoop].Number + ".png";
                 driverImage.appendChild(img);
                 newRow.appendChild(driverImage);
                 var driverName = document.createElement("td");
