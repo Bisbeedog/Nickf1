@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="f1.png" />
 
-    <title>F1 2021 Competition</title>
-    <meta name="description" content="F1 2021 Competition">
+    <title>F1 2022 Competition</title>
+    <meta name="description" content="F1 2022 Competition">
     <meta name="author" content="Nick">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -62,7 +62,7 @@
                     <thead>
                         <tr>
                             <th>Bahrain Grand Prix</th>
-                            <th class="rightAlign">3/8/2021</th>
+                            <th class="rightAlign">3/8/2022</th>
                         </tr>
                     </thead>
                 </table>
@@ -117,10 +117,10 @@
             var raceIndex;
             for (raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
                 var currentRace = data.Race[raceIndex];
-                if (currentRace.Finish && raceIndex != 11) {
+                if (currentRace.Finish) {
                     var currentPoints = 15;
                     var picksIndex;
-                    for(pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
+                    for (pickIndex = 0; pickIndex < currentRace.Picks.length; pickIndex++) {
                         currentRace.Picks[pickIndex].DriverPicks = [0, 0, 0];
                     }
                     var positionIndex;
@@ -140,11 +140,10 @@
 
 
                                     // Points per race
-                                    
                                     if (currentPick.Points)
                                         currentPick.Points += currentPoints;
                                     else
-                                        currentPick.Points = currentPoints; 
+                                        currentPick.Points = currentPoints;
 
                                     // Points per player 
                                     const player = data.Player.find(p => p.Name == currentPick.Player);
@@ -173,66 +172,6 @@
                         currentPoints -= matchCount;
 
                     }
-                } else if(raceIndex == 11 && data.Race[11].Finish) {
-                    var currentPoints = 7.5;
-                    var Spa = data.Race[11];
-                    var picksIndex;
-                    for(pickIndex = 0; pickIndex < 5; pickIndex++) {
-                        Spa.Picks[pickIndex].DriverPicks = [0, 0, 0];
-                    }
-                    var positionIndex;
-                    for (positionIndex = 0; positionIndex < Spa.Finish.length; positionIndex++) {
-                        var matchCount = 0;
-
-                        // see if anyone has the current driver
-                        var pickIndex;
-                        for (pickIndex = 0; pickIndex < Spa.Picks.length; pickIndex++) {
-                            var currentPick = Spa.Picks[pickIndex];
-
-                            var pickDriverIndex;
-                            for (pickDriverIndex = 0; pickDriverIndex < currentPick.Drivers.length; pickDriverIndex++) {
-                                if (Spa.Finish[positionIndex] == currentPick.Drivers[pickDriverIndex]) {
-
-                                    currentPick.DriverPicks[pickDriverIndex] = currentPoints;
-                                    
-
-                                    // Points per race
-                                    
-                                    if (currentPick.Points) {
-                                        currentPick.Points += currentPoints;
-                                    
-                                    }
-                                    else {
-                                        currentPick.Points = currentPoints; 
-                                    }
-
-                                    // Points per player 
-                                    const player = data.Player.find(p => p.Name == currentPick.Player);
-                                    if (player.Points)
-                                        player.Points += currentPoints;
-                                    else
-                                        player.Points = currentPoints;
-
-                                    // Points per driver
-                                    if (matchCount == 0) {
-                                        const driver = data.Driver.find(d => d.Number == Spa.Finish[positionIndex]);
-                                        if (driver.Points)
-                                            driver.Points += currentPoints;
-                                        else
-                                            driver.Points = currentPoints;
-                                    }
-
-                                    // Adding Points per Driver per Race
-
-
-                                    matchCount += 0.5;
-                                }
-                            }
-                        }
-
-                        currentPoints -= matchCount;
-
-                    }
                 }
 
 
@@ -248,12 +187,12 @@
                 var bPoints = b.Points || 0;
                 return bPoints - aPoints;
             });
-            for(var raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
-                if(data.Race[raceIndex].Picks){
-                data.Race[raceIndex].Picks.sort(function (a, b) {
-                    return b.Points - a.Points;
-                });
-            }
+            for (var raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
+                if (data.Race[raceIndex].Picks) {
+                    data.Race[raceIndex].Picks.sort(function (a, b) {
+                        return b.Points - a.Points;
+                    });
+                }
             }
         }
         SortData();
@@ -326,7 +265,7 @@
                     driverOrder.classList = "textDetail";
                     var driverText = "";
                     for (var finishIndex = 0; finishIndex < currentRace.Finish.length; finishIndex++) {
-                        found = data.Driver.find(element => element.Number == currentRace.Finish[finishIndex]);
+                        const found = data.Driver.find(element => element.Number == currentRace.Finish[finishIndex]);
                         driverText += found.Name;
                         if (finishIndex < currentRace.Finish.length - 1) {
                             driverText += ", ";
@@ -372,7 +311,7 @@
                             if (driverFinishIndex < 2) {
                                 driverList += "(" + currentRace.Picks[playerFinishIndex].DriverPicks[driverFinishIndex] + ")" + ", ";
                             }
-                            else { 
+                            else {
                                 driverList += "(" + currentRace.Picks[playerFinishIndex].DriverPicks[driverFinishIndex] + ")";
                             }
                         }
