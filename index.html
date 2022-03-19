@@ -222,6 +222,11 @@
                 var driverPosition = document.createElement("td");
                 driverPosition.innerText = driverLoop + 1;
                 newRow.appendChild(driverPosition);
+                var driverImage = document.createElement("td");
+                var img = document.createElement("img");
+                img.src = "./F1 Spires/4.png";
+                driverImage.appendChild(img);
+                newRow.appendChild(driverImage);
                 var driverName = document.createElement("td");
                 driverName.innerText = data.Driver[driverLoop].Name;
                 newRow.appendChild(driverName);
