@@ -73,7 +73,7 @@ var data = {
             Team: "Alpine"
         },
         {
-            Number: 33,
+            Number: 1,
             Name: "Max Verstappen",
             Team: "Red Bull"
         },
