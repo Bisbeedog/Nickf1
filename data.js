@@ -119,7 +119,7 @@ var data = {
             Date: "2022-03-20",
             Finish: [16, 55, 44, 63, 20, 77, 31, 22, 14, 24, 47, 18, 23, 3, 4, 6, 27, 11, 1, 10],
             Picks: [
-                { Player: "Nick", Drivers: [24, 2, 11] },
+                { Player: "Nick", Drivers: [24, 4, 11] },
                 { Player: "Bridget", Drivers: [63, 77, 3] },
                 { Player: "DOD", Drivers: [22, 14, 1] },
                 { Player: "Logan", Drivers: [44, 20, 10] },
