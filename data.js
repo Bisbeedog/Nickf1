@@ -129,14 +129,14 @@ var data = {
         {
             Name: "Saudi Arabian Grand Prix",
             Date: "2022-03-27",
-            // Finish: [33, 44, 4, 16, 55, 3, 10, 18, 31, 14, 11, 22, 7, 99, 5, 47, 9, 77, 63, 6],
-            // Picks: [
-            //     { Player: "Nick", Drivers: [4, 11, 99] },
-            //     { Player: "Bridget", Drivers: [44, 18, 63] },
-            //     { Player: "DOD", Drivers: [33, 14, 22] },
-            //     { Player: "Logan", Drivers: [31, 5, 77] },
-            //     { Player: "Pud", Drivers: [16, 3, 7] }
-            // ]
+            Finish: [1, 16, 55, 11, 63, 31, 4, 10, 20, 44, 24, 27, 18, 23, 77, 14, 3, 6, 22, 47],
+            Picks: [
+                 { Player: "Nick", Drivers: [11, 4, 24] },
+                 { Player: "Bridget", Drivers: [63, 77, 3] },
+                 { Player: "DOD", Drivers: [1, 14, 22] },
+                 { Player: "Logan", Drivers: [10, 20, 44] },
+                 { Player: "Pud", Drivers: [16, 55, 18] }
+             ]
         },
         {
             Name: "Australian Grand Prix",
