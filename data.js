@@ -141,14 +141,14 @@ var data = {
         {
             Name: "Australian Grand Prix",
             Date: "2022-04-10",
-            // Finish: [44, 33, 77, 11, 4, 16, 31, 14, 3, 10, 55, 99, 5, 18, 22, 63, 47, 6, 9, 7],
-            // Picks: [
-            //      { Player: "Nick", Drivers: [11, 4, 99] },
-            //      { Player: "Bridget", Drivers: [44, 18, 63] },
-            //      { Player: "DOD", Drivers: [33, 14, 22] },
-            //      { Player: "Logan", Drivers: [77, 31, 5] },
-            //      { Player: "Pud", Drivers: [16, 3, 7] }
-            //  ]
+            Finish: [16, 11, 63, 44, 4, 3, 31, 77, 10, 23, 24, 18, 47, 20, 22, 6, 14, 1, 5, 55],
+            Picks: [
+                { Player: "Nick", Drivers: [11, 4, 24] },
+                { Player: "Bridget", Drivers: [63, 3, 77] },
+                { Player: "DOD", Drivers: [22, 1, 14] },
+                { Player: "Logan", Drivers: [44, 10, 5] },
+                { Player: "Pud", Drivers: [16, 18, 55] }
+            ]
         },
         {
             Name: "Gran Premio del Emilia-Romagna",
