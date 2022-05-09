@@ -165,25 +165,25 @@ var data = {
         {
             Name: "Miami Grand Prix",
             Date: "2022-05-08",
-            // Finish: [44, 33, 77, 16, 11, 3, 55, 4, 31, 10, 18, 7, 5, 63, 99, 6, 14, 47, 9, 22],
-            // Picks: [
-            //     { Player: "Nick", Drivers: [11, 4, 99] },
-            //     { Player: "Bridget", Drivers: [44, 18, 63] },
-            //     { Player: "DOD", Drivers: [33, 14, 22] },
-            //     { Player: "Logan", Drivers: [77, 31, 5] },
-            //     { Player: "Pud", Drivers: [16, 3, 7] }
-            // ]
+            Finish: [1, 16, 55, 11, 63, 44, 77, 31, 23, 18, 14, 22, 3, 6, 47, 20, 5, 10, 4, 24],
+            Picks: [
+                { Player: "Nick", Drivers: [11, 4, 24] },
+                { Player: "Bridget", Drivers: [63, 77, 3] },
+                { Player: "DOD", Drivers: [1, 14, 22] },
+                { Player: "Logan", Drivers: [44, 5, 10] },
+                { Player: "Pud", Drivers: [16, 55, 18] }
+            ]
         },
         {
             Name: "Gran Premio de Espana",
             Date: "2022-05-22",
-            // Finish: [44, 33, 77, 16, 11, 3, 55, 4, 31, 10, 18, 7, 5, 63, 99, 6, 14, 47, 9, 22],
+            // Finish: [1, 16, 55, 11, 63, 44, 77, 31, 23, 18, 14, 22, 3, 6, 47, 20, 5, 10, 4, 24],
             // Picks: [
-            //     { Player: "Nick", Drivers: [11, 4, 99] },
-            //     { Player: "Bridget", Drivers: [44, 18, 63] },
-            //     { Player: "DOD", Drivers: [33, 14, 22] },
-            //     { Player: "Logan", Drivers: [77, 31, 5] },
-            //     { Player: "Pud", Drivers: [16, 3, 7] }
+            //     { Player: "Nick", Drivers: [11, 4, 24] },
+            //     { Player: "Bridget", Drivers: [63, 77, 3] },
+            //     { Player: "DOD", Drivers: [1, 14, 22] },
+            //     { Player: "Logan", Drivers: [44, 5, 10] },
+            //     { Player: "Pud", Drivers: [16, 55, 18] }
             // ]
         },
         {
