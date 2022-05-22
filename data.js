@@ -177,14 +177,14 @@ var data = {
         {
             Name: "Gran Premio de Espana",
             Date: "2022-05-22",
-            // Finish: [1, 16, 55, 11, 63, 44, 77, 31, 23, 18, 14, 22, 3, 6, 47, 20, 5, 10, 4, 24],
-            // Picks: [
-            //     { Player: "Nick", Drivers: [11, 4, 24] },
-            //     { Player: "Bridget", Drivers: [63, 77, 3] },
-            //     { Player: "DOD", Drivers: [1, 14, 22] },
-            //     { Player: "Logan", Drivers: [44, 5, 10] },
-            //     { Player: "Pud", Drivers: [16, 55, 18] }
-            // ]
+            Finish: [1, 11, 63, 55, 44, 77, 31, 4, 14, 22, 5, 3, 10, 47, 18, 6, 20, 23, 24, 16],
+            Picks: [
+                { Player: "Nick", Drivers: [11, 4, 24] },
+                { Player: "Bridget", Drivers: [63, 77, 3] },
+                { Player: "DOD", Drivers: [1, 14, 22] },
+                { Player: "Logan", Drivers: [44, 5, 10] },
+                { Player: "Pud", Drivers: [55, 18, 16] }
+            ]
         },
         {
             Name: "Grand Prix de Monaco",
