@@ -189,14 +189,14 @@ var data = {
         {
             Name: "Grand Prix de Monaco",
             Date: "2022-05-29",
-            // Finish: [44, 33, 77, 16, 11, 3, 55, 4, 31, 10, 18, 7, 5, 63, 99, 6, 14, 47, 9, 22],
-            // Picks: [
-            //     { Player: "Nick", Drivers: [11, 4, 99] },
-            //     { Player: "Bridget", Drivers: [44, 18, 63] },
-            //     { Player: "DOD", Drivers: [33, 14, 22] },
-            //     { Player: "Logan", Drivers: [77, 31, 5] },
-            //     { Player: "Pud", Drivers: [16, 3, 7] }
-            // ]        
+            Finish: [11, 55, 1, 16, 63, 4, 14, 44, 77, 5, 10, 31, 3, 18, 6, 24, 22, 23, 47, 20],
+            Picks: [
+                { Player: "Nick", Drivers: [11, 4, 24] },
+                { Player: "Bridget", Drivers: [63, 77, 3] },
+                { Player: "DOD", Drivers: [1, 14, 22] },
+                { Player: "Logan", Drivers: [44, 5, 10] },
+                { Player: "Pud", Drivers: [55, 16, 18] }
+            ]        
         },
         {
             Name: "Styrian Grand Prix",
