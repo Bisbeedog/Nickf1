@@ -199,28 +199,16 @@ var data = {
             ]        
         },
         {
-            Name: "Styrian Grand Prix",
-            Date: "2022-06-27",
-            // Finish: [44, 33, 77, 16, 11, 3, 55, 4, 31, 10, 18, 7, 5, 63, 99, 6, 14, 47, 9, 22],
-            // Picks: [
-            //     { Player: "Nick", Drivers: [11, 4, 99] },
-            //     { Player: "Bridget", Drivers: [44, 18, 63] },
-            //     { Player: "DOD", Drivers: [33, 14, 22] },
-            //     { Player: "Logan", Drivers: [77, 31, 5] },
-            //     { Player: "Pud", Drivers: [16, 3, 7] }
-            // ]
-        },
-        {
             Name: "Azerbaijan Gran Prix",
             Date: "2022-06-12",
-            // Finish: [44, 33, 77, 16, 11, 3, 55, 4, 31, 10, 18, 7, 5, 63, 99, 6, 14, 47, 9, 22],
-            // Picks: [
-            //     { Player: "Nick", Drivers: [11, 4, 99] },
-            //     { Player: "Bridget", Drivers: [44, 18, 63] },
-            //     { Player: "DOD", Drivers: [33, 14, 22] },
-            //     { Player: "Logan", Drivers: [77, 31, 5] },
-            //     { Player: "Pud", Drivers: [16, 3, 7] }
-            // ]
+            Finish: [1, 11, 63, 44, 10, 5, 14, 3, 4, 31, 77, 23, 22, 47, 6, 18, 20, 24, 16, 55],
+            Picks: [
+                { Player: "Nick", Drivers: [11, 4, 24] },
+                { Player: "Bridget", Drivers: [63, 3, 77] },
+                { Player: "DOD", Drivers: [1, 14, 22] },
+                { Player: "Logan", Drivers: [44, 10, 5] },
+                { Player: "Pud", Drivers: [18, 16, 55] }
+            ]
         },
         {
             Name: "Grand Prix du Canada",
