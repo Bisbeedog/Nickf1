@@ -213,14 +213,14 @@ var data = {
         {
             Name: "Grand Prix du Canada",
             Date: "2022-06-19",
-            // Finish: [44, 33, 77, 16, 11, 3, 55, 4, 31, 10, 18, 7, 5, 63, 99, 6, 14, 47, 9, 22],
-            // Picks: [
-            //     { Player: "Nick", Drivers: [11, 4, 99] },
-            //     { Player: "Bridget", Drivers: [44, 18, 63] },
-            //     { Player: "DOD", Drivers: [33, 14, 22] },
-            //     { Player: "Logan", Drivers: [77, 31, 5] },
-            //     { Player: "Pud", Drivers: [16, 3, 7] }
-            // ]
+            Finish: [1, 55, 44, 63, 16, 31, 14, 77, 24, 18, 3, 5, 23, 10, 4, 6, 20, 22, 47, 11],
+            Picks: [
+                 { Player: "Nick", Drivers: [24, 4, 11] },
+                 { Player: "Bridget", Drivers: [63, 77, 3] },
+                 { Player: "DOD", Drivers: [1, 14, 22] },
+                 { Player: "Logan", Drivers: [44, 5, 10] },
+                 { Player: "Pud", Drivers: [55, 16, 18] }
+            ]
         },
         {
             Name: "British Gran Prix",
