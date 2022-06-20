@@ -213,7 +213,7 @@ var data = {
         {
             Name: "Grand Prix du Canada",
             Date: "2022-06-19",
-            Finish: [1, 55, 44, 63, 16, 31, 14, 77, 24, 18, 3, 5, 23, 10, 4, 6, 20, 22, 47, 11],
+            Finish: [1, 55, 44, 63, 16, 31, 77, 24, 14, 18, 3, 5, 23, 10, 4, 6, 20, 22, 47, 11],
             Picks: [
                  { Player: "Nick", Drivers: [24, 4, 11] },
                  { Player: "Bridget", Drivers: [63, 77, 3] },
