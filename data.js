@@ -237,15 +237,15 @@ var data = {
         {
             Name: "Grosser Preis von Osterreich",
             Date: "2022-07-10",
-            // Finish: [44, 33, 77, 16, 11, 3, 55, 4, 31, 10, 18, 7, 5, 63, 99, 6, 14, 47, 9, 22],
-            // Picks: [
-            //     { Player: "Nick", Drivers: [11, 4, 99] },
-            //     { Player: "Bridget", Drivers: [44, 18, 63] },
-            //     { Player: "DOD", Drivers: [33, 14, 22] },
-            //     { Player: "Logan", Drivers: [77, 31, 5] },
-            //     { Player: "Pud", Drivers: [16, 3, 7] }
-            // ]
-        },
+            Finish: [16, 1, 44, 33, 63, 31, 47, 4, 20, 3, 14, 77, 23, 18, 24, 10, 5, 22, 5, 55, 6, 11],
+            Picks: [
+                 { Player: "Nick", Drivers: [4, 24, 11] },
+                 { Player: "Bridget", Drivers: [63, 3, 77] },
+                 { Player: "DOD", Drivers: [1, 14, 22] },
+                 { Player: "Logan", Drivers: [44, 10, 5] },
+                 { Player: "Pud", Drivers: [16, 18, 55] }
+             ]
+        }, 
         {
             Name: "Grand Prix de France",
             Date: "2022-08-24",
