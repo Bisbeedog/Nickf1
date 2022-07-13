@@ -28,8 +28,22 @@
         chartArray.push(headerArray);
         var starter = ['0',  a, b, c, d, e];
         chartArray.push(starter);
-        var firstLine = ['1',  a+= -10, b+= 11, c+= 3, d+= 1, e+= -5];
-        chartArray.push(firstLine);
+        var raceIndex;
+            for (raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
+                var currentRace = data.Race[raceIndex];
+                if (currentRace.Finish) {
+                    var array = [];
+                    array.push((raceIndex+1).toString);
+                    array.push(currentRace.Picks[0].Points);
+                    array.push(currentRace.Picks[1].Points);
+                    array.push(currentRace.Picks[2].Points);
+                    array.push(currentRace.Picks[3].Points);
+                    array.push(currentRace.Picks[4].Points);
+                }
+            }
+        
+        //var firstLine = ['1',  a+= -10, b+= 11, c+= 3, d+= 1, e+= -5];
+        //chartArray.push(firstLine);
         var chartData = google.visualization.arrayToDataTable([
           ['Race', 'Nick', 'Pud', 'Bridget', 'Logan', 'DOD'],
           ['0',  a, b, c, d, e],
