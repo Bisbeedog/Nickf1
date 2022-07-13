@@ -23,9 +23,12 @@
     var d = 0;
     var e = 0;
       function drawChart() {
+        var chartArray = [];
+        var headerArray = ['Race', 'Nick', 'Pud', 'Bridget', 'Logan', 'DOD'];
+        chartArray.push(headerArray);
         var chartData = google.visualization.arrayToDataTable([
           ['Race', 'Nick', 'Pud', 'Bridget', 'Logan', 'DOD'],
-          ['0',  data.Race[2].Picks[1].Points, b, c, d, e],
+          ['0',  a, b, c, d, e],
           ['1',  a+= -10, b+= 11, c+= 3, d+= 1, e+= -5],
           ['2',  a+= 4, b+= 8, c+= -7, d+= 0, e+= -5],
           ['3',  a+=8, b+= -2, c+= 8, d+= -2, e+= -12],
@@ -47,7 +50,7 @@
 
         var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
 
-        chart.draw(chartData, options);
+        chart.draw(chartArray, options);
       }
     </script>
 </head>
