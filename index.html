@@ -34,11 +34,11 @@
                 if (currentRace.Finish) {
                     var array = [];
                     array.push((raceIndex+1).toString);
-                    array.push(currentRace.Picks[0].Points);
-                    array.push(currentRace.Picks[1].Points);
-                    array.push(currentRace.Picks[2].Points);
-                    array.push(currentRace.Picks[3].Points);
-                    array.push(currentRace.Picks[4].Points);
+                    array.push(a+= (currentRace.Picks[0].Points-24));
+                    array.push(b+= (currentRace.Picks[1].Points-24));
+                    array.push(c+= (currentRace.Picks[2].Points-24));
+                    array.push(d+= (currentRace.Picks[3].Points-24));
+                    array.push(e+= (currentRace.Picks[4].Points-24));
                     chartArray.push(array);
                 }
             }
