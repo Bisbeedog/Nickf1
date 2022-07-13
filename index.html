@@ -49,8 +49,8 @@
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
-
-        chart.draw(chartArray, options);
+        var chartDrawTable = google.visualization.arrayToDataTable([chartArray]);
+        chart.draw(chartDrawTable, options);
       }
     </script>
 </head>
