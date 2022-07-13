@@ -34,11 +34,11 @@
                 if (currentRace.Finish) {
                     var array = [];
                     array.push((raceIndex+1).toString());
-                    array.push(a+= (currentRace.Picks[currentRace.Picks.findIndex((element) => element.Player == 'Nick')].Points-24));
-                    array.push(b+= (currentRace.Picks[currentRace.Picks.findIndex((element) => element.Player == 'Pud'].Points-24));
-                    array.push(c+= (currentRace.Picks[currentRace.Picks.findIndex((element) => element.Player == 'Bridget'].Points-24));
-                    array.push(d+= (currentRace.Picks[currentRace.Picks.findIndex((element) => element.Player == 'Logan'].Points-24));
-                    array.push(e+= (currentRace.Picks[currentRace.Picks.findIndex((element) => element.Player == 'DOD'].Points-24));
+                    array.push(a+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == 'Nick')].Points-24));
+                    array.push(b+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == 'Pud')].Points-24));
+                    array.push(c+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == 'Bridget')].Points-24));
+                    array.push(d+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == 'Logan')].Points-24));
+                    array.push(e+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == 'DOD')].Points-24));
                     chartArray.push(array);
                 }
             }
