@@ -43,12 +43,7 @@
                     array.push((raceIndex+1).toString());
                     
                     for(var i = 1; i < headerArray.length; i++){
-                        if(raceIndex == 0) {
-                            array.push(a+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == headerArray[i])].Points-24));
-                        }
-                        else{
                             array.push(chartArray[raceIndex+1][i]+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == headerArray[i])].Points-24));
-                        }
                     }
 
                     //array.push(a+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == 'Nick')].Points-24));
