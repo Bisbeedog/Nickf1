@@ -29,9 +29,8 @@
         for(var i = 1; i < headerArray.length; i++){
             starter.push(0);
         }
-
-
         chartArray.push(starter);
+
         var raceIndex;
             for (raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
                 var currentRace = data.Race[raceIndex];
@@ -40,7 +39,7 @@
                     array.push((raceIndex+1).toString());
                     
                     for(var i = 1; i < headerArray.length; i++){
-                            array.push(chartArray[raceIndex+1][i]+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == headerArray[i])].Points-24));
+                            array.push(chartArray[raceIndex+1][i]  +  (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == headerArray[i])].Points-24));
                     }
                     chartArray.push(array);
                 }
