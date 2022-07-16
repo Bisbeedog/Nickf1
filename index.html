@@ -17,23 +17,20 @@
     <script type="text/javascript">
     google.charts.load('current', {'packages':['corechart']});
     google.charts.setOnLoadCallback(drawChart);
-    var a = 0;
-    var b = 0;
-    var c = 0;
-    var d = 0;
-    var e = 0;
-    
-
       function drawChart() {
         var chartArray = [];
-        //var headerArray = ['Race', 'Nick', 'Pud', 'Bridget', 'Logan', 'DOD'];
         var headerArray = ['Race'];
         for(var i = 0; i < data.Player.length; i++) {
             headerArray.push(data.Player[i].Name);
         }
 
         chartArray.push(headerArray);
-        var starter = ['0',  a, b, c, d, e];
+        var starter = ['0'];
+        for(var i = 1; i < headerArray.length; i++){
+            starter.push(0);
+        }
+
+
         chartArray.push(starter);
         var raceIndex;
             for (raceIndex = 0; raceIndex < data.Race.length; raceIndex++) {
@@ -45,12 +42,6 @@
                     for(var i = 1; i < headerArray.length; i++){
                             array.push(chartArray[raceIndex+1][i]+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == headerArray[i])].Points-24));
                     }
-
-                    //array.push(a+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == 'Nick')].Points-24));
-                    //array.push(b+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == 'Pud')].Points-24));
-                    //array.push(c+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == 'Bridget')].Points-24));
-                    //array.push(d+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == 'Logan')].Points-24));
-                    //array.push(e+= (currentRace.Picks[currentRace.Picks.findIndex(element => element.Player == 'DOD')].Points-24));
                     chartArray.push(array);
                 }
             }
