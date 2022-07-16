@@ -15,16 +15,23 @@
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
     var a = 0;
     var b = 0;
     var c = 0;
     var d = 0;
     var e = 0;
+    
+
       function drawChart() {
         var chartArray = [];
-        var headerArray = ['Race', 'Nick', 'Pud', 'Bridget', 'Logan', 'DOD'];
+        //var headerArray = ['Race', 'Nick', 'Pud', 'Bridget', 'Logan', 'DOD'];
+        var headerArray = ['Race'];
+        for(var i = 0; i < data.Player.length; i++) {
+            headerArray.push(data.Player[i].Name);
+        }
+
         chartArray.push(headerArray);
         var starter = ['0',  a, b, c, d, e];
         chartArray.push(starter);
