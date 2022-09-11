@@ -93,6 +93,11 @@ var data = {
             Team: "Ferrari"
         },
         {
+            Number: 45,
+            Name: "Nyck de Vries",
+            Team: "Williams"
+        },
+        {
             Number: 23,
             Name: "Alex Albon",
             Team: "Williams"
