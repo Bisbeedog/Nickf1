@@ -362,7 +362,7 @@ var data = {
         {
             Name: "Grande Premio de Sao Paulo",
             Date: "2022-11-13",
-            Finish: [63, 63, 63, 63, 63, 63, 11, 4, 24, 77, 3, 1, 14, 2, 44, 10, 5, 16, 55, 18 ],
+            Finish: [63, 63, 63, 63, 63, 63, 11, 4, 24, 77, 3, 1, 14, 22, 44, 10, 5, 16, 55, 18 ],
             Picks: [
                  { Player: "Nick", Drivers: [11, 4, 24] },
                  { Player: "Bridget", Drivers: [77, 3, 63] },
