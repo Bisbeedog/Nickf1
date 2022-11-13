@@ -362,13 +362,13 @@ var data = {
         {
             Name: "Grande Premio de Sao Paulo",
             Date: "2022-11-13",
-            Finish: [63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, ],
+            Finish: [63, 63, 63, 63, 63, 63, 11, 4, 24, 77, 3, 1, 14, 2, 44, 10, 5, 16, 55, 18 ],
             Picks: [
-                 { Player: "Nick", Drivers: [11, 4, 99] },
-                 { Player: "Bridget", Drivers: [44, 18, 63] },
-                 { Player: "DOD", Drivers: [33, 14, 22] },
-                 { Player: "Logan", Drivers: [77, 31, 5] },
-                 { Player: "Pud", Drivers: [16, 3, 7] }
+                 { Player: "Nick", Drivers: [11, 4, 24] },
+                 { Player: "Bridget", Drivers: [77, 3, 63] },
+                 { Player: "DOD", Drivers: [1, 14, 22] },
+                 { Player: "Logan", Drivers: [44, 10, 5] },
+                 { Player: "Pud", Drivers: [16, 55, 18] }
              ]
         },
         {
