@@ -374,7 +374,7 @@ var data = {
         {
             Name: "Abu Dhabi Grand Prix",
             Date: "2022-11-20",
-            Finish: [25, 18, 11, 55, 63, 4, 31, 16, 3, 5, 22, 24, 23, 10, 77, 47, 20, 44, 6, 14],
+            Finish: [1, 16, 11, 55, 63, 4, 31, 18, 3, 5, 22, 24, 23, 10, 77, 47, 20, 44, 6, 14],
             Picks: [
                  { Player: "Nick", Drivers: [11, 4, 24] },
                  { Player: "Bridget", Drivers: [63, 3, 77] },
