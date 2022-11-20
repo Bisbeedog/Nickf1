@@ -380,7 +380,7 @@ var data = {
                  { Player: "Bridget", Drivers: [63, 3, 77] },
                  { Player: "DOD", Drivers: [1, 22, 14] },
                  { Player: "Logan", Drivers: [5, 10, 44 ]},
-                 { Player: "Pud", Drivers: [18, 55, 16] }
+                 { Player: "Pud", Drivers: [16, 18, 55 ] }
              ]
         }
     ]
