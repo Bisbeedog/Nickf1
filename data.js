@@ -112,15 +112,15 @@ var data = {
         {
             Name: "Bahrain Grand Prix",
             Date: "2023-03-05",
-/*             Finish: [16, 55, 44, 63, 20, 77, 31, 22, 14, 24, 47, 18, 23, 3, 4, 6, 27, 11, 1, 10],
+            Finish: [1, 11, 14, 55, 44, 18, 63, 77, 10, 23, 22, 2, 20, 21, 27, 24, 4, 31, 16, 81],
             Picks: [
-                { Player: "Nick", Drivers: [24, 4, 11] },
-                { Player: "Bridget", Drivers: [63, 77, 3] },
-                { Player: "DOD", Drivers: [22, 14, 1] },
-                { Player: "Logan", Drivers: [44, 20, 10] },
-                { Player: "Pud", Drivers: [16, 55, 18] }
+                { Player: "Nick", Drivers: [11, 24, 4] },
+                { Player: "Bridget", Drivers: [63, 77, 21] },
+                { Player: "DOD", Drivers: [1, 14, 22] },
+                { Player: "Logan", Drivers: [44, 10, 81] },
+                { Player: "Pud", Drivers: [55, 23, 16] }
             ]
-      */   },
+           },
         {
             Name: "Saudi Arabian Grand Prix",
             Date: "2023-03-19",
