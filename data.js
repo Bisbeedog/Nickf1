@@ -139,7 +139,7 @@ var data = {
             Finish: [1, 44, 14, 18, 11, 4, 27, 81, 24, 22, 77, 55, 10, 31, 21, 2, 20, 63, 23, 16],
             Picks: [
                 { Player: "Nick", Drivers: [11, 4, 24] },
-                { Player: "Bridget", Drivers: [77, 21, 3] },
+                { Player: "Bridget", Drivers: [77, 21, 63] },
                 { Player: "DOD", Drivers: [1, 14, 22] },
                 { Player: "Logan", Drivers: [44, 81, 10] },
                 { Player: "Pud", Drivers: [55, 23, 16] }
