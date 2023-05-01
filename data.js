@@ -148,14 +148,14 @@ var data = {
         {
             Name: "Azerbaijan Grand Prix",
             Date: "2023-04-30",
-/*             Finish: [1, 11, 4, 63, 77, 16, 22, 5, 20, 18, 23, 10, 44, 31, 24, 6, 47, 3, 14, 55],
+            Finish: [11, 1, 16, 14, 55, 44, 18, 63, 4, 22, 81, 23, 20, 10, 31, 2, 27, 77, 24, 21],
             Picks: [
                 { Player: "Nick", Drivers: [11, 4, 24] },
-                { Player: "Bridget", Drivers: [63, 77, 3] },
-                { Player: "DOD", Drivers: [1, 22, 14] },
-                { Player: "Logan", Drivers: [5, 10, 44] },
-                { Player: "Pud", Drivers: [16, 18, 55] }
-            ] */
+                { Player: "Bridget", Drivers: [63, 77, 21] },
+                { Player: "DOD", Drivers: [1, 14, 22] },
+                { Player: "Logan", Drivers: [44, 81, 10] },
+                { Player: "Pud", Drivers: [16, 55, 23] }
+            ] 
         },
         {
             Name: "Miami Grand Prix",
