@@ -160,14 +160,14 @@ var data = {
         {
             Name: "Miami Grand Prix",
             Date: "2023-05-07",
-/*             Finish: [1, 16, 55, 11, 63, 44, 77, 31, 23, 18, 14, 22, 3, 6, 47, 20, 5, 10, 4, 24],
+            Finish: [1, 11, 14, 63, 55, 44, 16, 10, 31, 20, 22, 18, 77, 23, 27, 24, 4, 21, 81, 2],
             Picks: [
-                { Player: "Nick", Drivers: [11, 4, 24] },
-                { Player: "Bridget", Drivers: [63, 77, 3] },
+                { Player: "Nick", Drivers: [11, 24, 4] },
+                { Player: "Bridget", Drivers: [63, 77, 21] },
                 { Player: "DOD", Drivers: [1, 14, 22] },
-                { Player: "Logan", Drivers: [44, 5, 10] },
-                { Player: "Pud", Drivers: [16, 55, 18] }
-            ] */
+                { Player: "Logan", Drivers: [44, 10, 81] },
+                { Player: "Pud", Drivers: [55, 16, 23] }
+            ] 
         },
         {
             Name: "Emilia Romagna Grand Prxi",
