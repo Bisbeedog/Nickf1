@@ -170,28 +170,16 @@ var data = {
             ] 
         },
         {
-            Name: "Emilia Romagna Grand Prxi",
-            Date: "2023-05-21",
-/*             Finish: [1, 11, 63, 55, 44, 77, 31, 4, 14, 22, 5, 3, 10, 47, 18, 6, 20, 23, 24, 16],
-            Picks: [
-                { Player: "Nick", Drivers: [11, 4, 24] },
-                { Player: "Bridget", Drivers: [63, 77, 3] },
-                { Player: "DOD", Drivers: [1, 14, 22] },
-                { Player: "Logan", Drivers: [44, 5, 10] },
-                { Player: "Pud", Drivers: [55, 18, 16] }
-            ] */
-        },
-        {
             Name: "Grand Prix de Monaco",
             Date: "2023-05-28",
-/*             Finish: [11, 55, 1, 16, 63, 4, 14, 44, 77, 5, 10, 31, 3, 18, 6, 24, 22, 23, 47, 20],
+            Finish: [1, 14, 31, 44, 63, 16, 10, 55, 4, 81, 77, 21, 24, 23, 22, 11, 27, 2, 20, 18],
             Picks: [
-                { Player: "Nick", Drivers: [11, 4, 24] },
-                { Player: "Bridget", Drivers: [63, 77, 3] },
+                { Player: "Nick", Drivers: [4, 24, 11] },
+                { Player: "Bridget", Drivers: [63, 77, 21] },
                 { Player: "DOD", Drivers: [1, 14, 22] },
-                { Player: "Logan", Drivers: [44, 5, 10] },
-                { Player: "Pud", Drivers: [55, 16, 18] }
-            ]   */      
+                { Player: "Logan", Drivers: [31, 44, 10] },
+                { Player: "Pud", Drivers: [16, 55, 23] }
+            ]    
         },
         {
             Name: "Gran premio de Espana",
