@@ -184,14 +184,14 @@ var data = {
         {
             Name: "Gran premio de Espana",
             Date: "2023-06-04",
-/*             Finish: [1, 11, 63, 44, 10, 5, 14, 3, 4, 31, 77, 23, 22, 47, 6, 18, 20, 24, 16, 55],
+            Finish: [1, 44, 63, 11, 55, 18, 14, 31, 24, 10, 16, 22, 81, 21, 27, 23, 4, 20, 77, 2],
             Picks: [
-                { Player: "Nick", Drivers: [11, 4, 24] },
-                { Player: "Bridget", Drivers: [63, 3, 77] },
+                { Player: "Nick", Drivers: [11, 24, 4] },
+                { Player: "Bridget", Drivers: [63, 21, 77] },
                 { Player: "DOD", Drivers: [1, 14, 22] },
-                { Player: "Logan", Drivers: [44, 10, 5] },
-                { Player: "Pud", Drivers: [18, 16, 55] }
-            ] */
+                { Player: "Logan", Drivers: [44, 31, 10] },
+                { Player: "Pud", Drivers: [55, 16, 23] }
+            ] 
         },
         {
             Name: "Grand Prix du Canada",
