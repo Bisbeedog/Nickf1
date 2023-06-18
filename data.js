@@ -196,14 +196,14 @@ var data = {
         {
             Name: "Grand Prix du Canada",
             Date: "2023-06-18",
-/*             Finish: [1, 55, 44, 63, 16, 31, 77, 24, 14, 18, 3, 5, 23, 10, 4, 6, 20, 22, 47, 11],
+            Finish: [1, 14, 44, 16, 55, 11, 23, 31, 18, 77, 81, 10, 4, 22, 27, 24, 20, 21, 63, 2],
             Picks: [
-                 { Player: "Nick", Drivers: [24, 4, 11] },
-                 { Player: "Bridget", Drivers: [63, 77, 3] },
+                 { Player: "Nick", Drivers: [11, 4, 24] },
+                 { Player: "Bridget", Drivers: [77, 21, 63] },
                  { Player: "DOD", Drivers: [1, 14, 22] },
-                 { Player: "Logan", Drivers: [44, 5, 10] },
-                 { Player: "Pud", Drivers: [55, 16, 18] }
-            ] */
+                 { Player: "Logan", Drivers: [44, 31, 10] },
+                 { Player: "Pud", Drivers: [16, 55, 23] }
+            ] 
         },
         {
             Name: "Grosser Preis von Osterreich",
