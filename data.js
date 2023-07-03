@@ -208,14 +208,14 @@ var data = {
         {
             Name: "Grosser Preis von Osterreich",
             Date: "2023-07-02",
-/*             Finish: [55, 11, 44, 16, 14, 4, 1, 47, 5, 20, 18, 6, 3, 22, 31, 10, 77, 63, 24, 23],
+             Finish: [1, 16, 11, 4, 14, 55, 63, 44, 18, 10, 23, 24, 2, 31, 77, 81, 21, 20, 22, 27],
             Picks: [
                  { Player: "Nick", Drivers: [11, 4, 24] },
-                 { Player: "Bridget", Drivers: [3, 77, 63] },
-                 { Player: "DOD", Drivers: [14, 1, 22] },
-                 { Player: "Logan", Drivers: [44, 5, 10] },
-                 { Player: "Pud", Drivers: [55, 16, 18] }
-            ] */
+                 { Player: "Bridget", Drivers: [63, 77, 21] },
+                 { Player: "DOD", Drivers: [1, 14, 22] },
+                 { Player: "Logan", Drivers: [44, 10, 31] },
+                 { Player: "Pud", Drivers: [16, 55, 23] }
+            ] 
         },
         {
             Name: "British Grand Prix",
