@@ -106,6 +106,11 @@ var data = {
             Number: 2,
             Name: "Logan Sargeant",
             Team: "Williams"
+        },
+        {
+            Number: 3,
+            Name: "Daniel Ricciardo",
+            Team: "Alfa Tauri"
         }
     ],
     Race: [
@@ -232,14 +237,14 @@ var data = {
         {
             Name: "Hungarian Grand Prix",
             Date: "2023-07-23",
-/*             Finish: [1, 44, 63, 55, 11, 16, 4, 14, 31, 5, 18, 10, 24, 47, 3, 20, 23, 6, 22, 77],
+             Finish: [1, 4, 11, 44, 81, 63, 16, 55, 14, 18, 23, 77, 3, 27, 22, 24, 20, 2, 31, 10],
             Picks: [
-                 { Player: "Nick", Drivers: [11, 4, 24] },
-                 { Player: "Bridget", Drivers: [63, 3, 77] },
+                 { Player: "Nick", Drivers: [4, 11, 24] },
+                 { Player: "Bridget", Drivers: [81, 63, 77] },
                  { Player: "DOD", Drivers: [1, 14, 22] },
-                 { Player: "Logan", Drivers: [44, 5, 10] },
-                 { Player: "Pud", Drivers: [55, 16, 18] }
-             ] */
+                 { Player: "Logan", Drivers: [44, 31, 10] },
+                 { Player: "Pud", Drivers: [16, 55, 18] }
+             ] 
         },
         {
             Name: "Belgian Grand Prix",
