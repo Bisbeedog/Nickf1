@@ -243,7 +243,7 @@ var data = {
                  { Player: "Bridget", Drivers: [81, 63, 77] },
                  { Player: "DOD", Drivers: [1, 14, 22] },
                  { Player: "Logan", Drivers: [44, 31, 10] },
-                 { Player: "Pud", Drivers: [16, 55, 18] }
+                 { Player: "Pud", Drivers: [16, 55, 23] }
              ] 
         },
         {
