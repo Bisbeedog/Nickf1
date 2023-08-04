@@ -249,14 +249,14 @@ var data = {
         {
             Name: "Belgian Grand Prix",
             Date: "2023-07-30",
- /*            Finish: [1, 11, 55, 63, 14, 16, 31, 5, 10, 23, 18, 4, 22, 24, 3, 20, 47, 6, 77, 44],
+             Finish: [1, 11, 16, 44, 14, 63, 4, 31, 18, 22, 10, 77, 24, 23, 20, 3, 2, 27, 55, 81],
             Picks: [
                  { Player: "Nick", Drivers: [11, 4, 24] },
-                 { Player: "Bridget", Drivers: [63, 3, 77] },
+                 { Player: "Bridget", Drivers: [63, 77, 81] },
                  { Player: "DOD", Drivers: [1, 14, 22] },
-                 { Player: "Logan", Drivers: [5, 10, 44] },
-                 { Player: "Pud", Drivers: [55, 16, 18] }
-            ] */
+                 { Player: "Logan", Drivers: [44, 31, 10] },
+                 { Player: "Pud", Drivers: [16, 23, 55] }
+            ] 
         },
         {
             Name: "Dutch Grand Prix",
