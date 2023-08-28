@@ -83,6 +83,11 @@ var data = {
             Team: "Alfa Tauri"
         },
         {
+            Number: 40,
+            Name: "Liam Lawson",
+            Team: "Alfa Tauri"
+        },
+        {
             Number: 23,
             Name: "Alex Albon",
             Team: "Williams"
@@ -261,14 +266,14 @@ var data = {
         {
             Name: "Dutch Grand Prix",
             Date: "2023-08-27",
-/*             Finish: [1, 63, 16, 44, 11, 14, 4, 55, 31, 18, 10, 23, 47, 5, 20, 24, 3, 6, 77, 22],
+             Finish: [1, 14, 10, 11, 55, 44, 4, 23, 81, 31, 18, 27, 40, 77, 22, 20, 63, 24, 16, 2],
             Picks: [
                  { Player: "Nick", Drivers: [11, 4, 24] },
-                 { Player: "Bridget", Drivers: [63, 3, 77] },
+                 { Player: "Bridget", Drivers: [81, 77, 63] },
                  { Player: "DOD", Drivers: [1, 14, 22] },
-                 { Player: "Logan", Drivers: [44, 10, 5] },
-                 { Player: "Pud", Drivers: [16, 55, 18] }
-             ] */
+                 { Player: "Logan", Drivers: [10, 44, 31] },
+                 { Player: "Pud", Drivers: [55, 23, 16] }
+             ] 
         },
         {
             Name: "Gran Premio D'Italia",
