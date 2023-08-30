@@ -125,7 +125,7 @@ var data = {
             Finish: [1, 11, 14, 55, 44, 18, 63, 77, 10, 23, 22, 2, 20, 21, 27, 24, 4, 31, 16, 81],
             Picks: [
                 { Player: "Nick", Drivers: [11, 24, 4] },
-                { Player: "Bridget", Drivers: [63, 18, 21] },
+                { Player: "Bridget", Drivers: [63, 77, 21] },
                 { Player: "DOD", Drivers: [1, 14, 22] },
                 { Player: "Logan", Drivers: [44, 10, 81] },
                 { Player: "Pud", Drivers: [55, 23, 16] }
@@ -137,7 +137,7 @@ var data = {
             Finish: [11, 1,14, 63, 44, 55, 16, 31, 10, 20, 22, 27, 24, 21, 81, 2, 4, 77, 23, 18],
             Picks: [
                  { Player: "Nick", Drivers: [11, 24, 4] },
-                 { Player: "Bridget", Drivers: [63, 18, 21] },
+                 { Player: "Bridget", Drivers: [63, 77, 21] },
                  { Player: "DOD", Drivers: [1, 14, 22] },
                  { Player: "Logan", Drivers: [44, 10, 81] },
                  { Player: "Pud", Drivers: [55, 16, 23] }
@@ -149,7 +149,7 @@ var data = {
             Finish: [1, 44, 14, 18, 11, 4, 27, 81, 24, 22, 77, 55, 10, 31, 21, 2, 20, 63, 23, 16],
             Picks: [
                 { Player: "Nick", Drivers: [11, 4, 24] },
-                { Player: "Bridget", Drivers: [18, 21, 63] },
+                { Player: "Bridget", Drivers: [77, 21, 63] },
                 { Player: "DOD", Drivers: [1, 14, 22] },
                 { Player: "Logan", Drivers: [44, 81, 10] },
                 { Player: "Pud", Drivers: [55, 23, 16] }
@@ -161,7 +161,7 @@ var data = {
             Finish: [11, 1, 16, 14, 55, 44, 18, 63, 4, 22, 81, 23, 20, 10, 31, 2, 27, 77, 24, 21],
             Picks: [
                 { Player: "Nick", Drivers: [11, 4, 24] },
-                { Player: "Bridget", Drivers: [63, 18, 21] },
+                { Player: "Bridget", Drivers: [63, 77, 21] },
                 { Player: "DOD", Drivers: [1, 14, 22] },
                 { Player: "Logan", Drivers: [44, 81, 10] },
                 { Player: "Pud", Drivers: [16, 55, 23] }
@@ -173,7 +173,7 @@ var data = {
             Finish: [1, 11, 14, 63, 55, 44, 16, 10, 31, 20, 22, 18, 77, 23, 27, 24, 4, 21, 81, 2],
             Picks: [
                 { Player: "Nick", Drivers: [11, 24, 4] },
-                { Player: "Bridget", Drivers: [63, 18, 21] },
+                { Player: "Bridget", Drivers: [63, 77, 21] },
                 { Player: "DOD", Drivers: [1, 14, 22] },
                 { Player: "Logan", Drivers: [44, 10, 81] },
                 { Player: "Pud", Drivers: [55, 16, 23] }
@@ -185,7 +185,7 @@ var data = {
             Finish: [1, 14, 31, 44, 63, 16, 10, 55, 4, 81, 77, 21, 24, 23, 22, 11, 27, 2, 20, 18],
             Picks: [
                 { Player: "Nick", Drivers: [4, 24, 11] },
-                { Player: "Bridget", Drivers: [63, 18, 21] },
+                { Player: "Bridget", Drivers: [63, 77, 21] },
                 { Player: "DOD", Drivers: [1, 14, 22] },
                 { Player: "Logan", Drivers: [31, 44, 10] },
                 { Player: "Pud", Drivers: [16, 55, 23] }
@@ -197,7 +197,7 @@ var data = {
             Finish: [1, 44, 63, 11, 55, 18, 14, 31, 24, 10, 16, 22, 81, 21, 27, 23, 4, 20, 77, 2],
             Picks: [
                 { Player: "Nick", Drivers: [11, 24, 4] },
-                { Player: "Bridget", Drivers: [63, 21, 18] },
+                { Player: "Bridget", Drivers: [63, 21, 77] },
                 { Player: "DOD", Drivers: [1, 14, 22] },
                 { Player: "Logan", Drivers: [44, 31, 10] },
                 { Player: "Pud", Drivers: [55, 16, 23] }
@@ -209,7 +209,7 @@ var data = {
             Finish: [1, 14, 44, 16, 55, 11, 23, 31, 18, 77, 81, 10, 4, 22, 27, 24, 20, 21, 63, 2],
             Picks: [
                  { Player: "Nick", Drivers: [11, 4, 24] },
-                 { Player: "Bridget", Drivers: [18, 21, 63] },
+                 { Player: "Bridget", Drivers: [77, 21, 63] },
                  { Player: "DOD", Drivers: [1, 14, 22] },
                  { Player: "Logan", Drivers: [44, 31, 10] },
                  { Player: "Pud", Drivers: [16, 55, 23] }
@@ -221,7 +221,7 @@ var data = {
              Finish: [1, 16, 11, 4, 14, 55, 63, 44, 18, 10, 23, 24, 2, 31, 77, 81, 21, 20, 22, 27],
             Picks: [
                  { Player: "Nick", Drivers: [11, 4, 24] },
-                 { Player: "Bridget", Drivers: [63, 18, 21] },
+                 { Player: "Bridget", Drivers: [63, 77, 21] },
                  { Player: "DOD", Drivers: [1, 14, 22] },
                  { Player: "Logan", Drivers: [44, 10, 31] },
                  { Player: "Pud", Drivers: [16, 55, 23] }
@@ -233,7 +233,7 @@ var data = {
              Finish: [1, 4, 44, 81, 63, 11, 14, 23, 16, 55, 2, 77, 27, 18, 24, 22, 21, 10, 20, 31],
             Picks: [
                   { Player: "Nick", Drivers: [4, 11, 24] },
-                  { Player: "Bridget", Drivers: [63, 18, 21] },
+                  { Player: "Bridget", Drivers: [63, 77, 21] },
                   { Player: "DOD", Drivers: [1, 14, 22] },
                   { Player: "Logan", Drivers: [44, 10, 31] },
                   { Player: "Pud", Drivers: [23, 16, 55] }
@@ -245,7 +245,7 @@ var data = {
              Finish: [1, 4, 11, 44, 81, 63, 16, 55, 14, 18, 23, 77, 3, 27, 22, 24, 20, 2, 31, 10],
             Picks: [
                  { Player: "Nick", Drivers: [4, 11, 24] },
-                 { Player: "Bridget", Drivers: [81, 63, 18] },
+                 { Player: "Bridget", Drivers: [81, 63, 77] },
                  { Player: "DOD", Drivers: [1, 14, 22] },
                  { Player: "Logan", Drivers: [44, 31, 10] },
                  { Player: "Pud", Drivers: [16, 55, 23] }
@@ -257,7 +257,7 @@ var data = {
              Finish: [1, 11, 16, 44, 14, 63, 4, 31, 18, 22, 10, 77, 24, 23, 20, 3, 2, 27, 55, 81],
             Picks: [
                  { Player: "Nick", Drivers: [11, 4, 24] },
-                 { Player: "Bridget", Drivers: [63, 18, 81] },
+                 { Player: "Bridget", Drivers: [63, 77, 81] },
                  { Player: "DOD", Drivers: [1, 14, 22] },
                  { Player: "Logan", Drivers: [44, 31, 10] },
                  { Player: "Pud", Drivers: [16, 23, 55] }
@@ -269,7 +269,7 @@ var data = {
              Finish: [1, 14, 10, 11, 55, 44, 4, 23, 81, 31, 18, 27, 40, 77, 22, 20, 63, 24, 16, 2],
             Picks: [
                  { Player: "Nick", Drivers: [11, 4, 24] },
-                 { Player: "Bridget", Drivers: [81, 18, 63] },
+                 { Player: "Bridget", Drivers: [81, 77, 63] },
                  { Player: "DOD", Drivers: [1, 14, 22] },
                  { Player: "Logan", Drivers: [10, 44, 31] },
                  { Player: "Pud", Drivers: [55, 23, 16] }
