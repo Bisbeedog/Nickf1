@@ -278,14 +278,14 @@ var data = {
         {
             Name: "Gran Premio D'Italia",
             Date: "2023-9-03",
-/*             Finish: [1, 16, 63, 55, 44, 11, 4, 10, 45, 24, 31,  47, 77, 22, 6, 20, 3, 18, 14, 5],
+             Finish: [1, 11, 55, 16, 63, 44, 23, 4, 14, 77, 40, 81, 2, 24, 10, 18, 27, 20, 31, 22],
             Picks: [
                 { Player: "Nick", Drivers: [11, 4, 24] },
-                { Player: "Bridget", Drivers: [63, 77, 3] },
-                { Player: "DOD", Drivers: [1, 22, 14] },
-                { Player: "Logan", Drivers: [44, 10, 5] },
-                { Player: "Pud", Drivers: [16, 55, 18] }
-            ] */
+                { Player: "Bridget", Drivers: [63, 77, 81] },
+                { Player: "DOD", Drivers: [1, 14, 22] },
+                { Player: "Logan", Drivers: [44, 10, 31] },
+                { Player: "Pud", Drivers: [55, 16, 23] }
+            ] 
         },
         {
             Name: "Singapore Grand Prix",
