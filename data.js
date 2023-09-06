@@ -301,7 +301,7 @@ var data = {
         },
         {
             Name: "Japanese Grand Prix",
-            Date: "2023-09-24",
+            Date: "2023-09-23",
   /*           Finish: [1, 11, 16, 31, 44, 5, 14, 63, 6, 4, 3, 18, 22, 20, 77, 24, 47, 10, 55, 23],
             Picks: [
                  { Player: "Nick", Drivers: [11, 4, 24] },
