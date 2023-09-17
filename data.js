@@ -290,14 +290,14 @@ var data = {
         {
             Name: "Singapore Grand Prix",
             Date: "2023-09-17",
-/*             Finish: [11, 16, 55, 4, 3, 18, 1, 5, 44, 10, 77, 20, 47, 63, 22, 31, 23, 14, 6, 24],
+             Finish: [55, 4, 44, 16, 1, 10, 81, 11, 40, 20, 23, 24, 27, 2, 14, 63, 77, 31, 22],
             Picks: [
-                { Player: "Nick", Drivers: [11, 4, 24] },
-                { Player: "Bridget", Drivers: [3, 77, 63] },
-                { Player: "DOD", Drivers: [1, 22, 14] },
-                { Player: "Logan", Drivers: [5, 44, 10] },
-                { Player: "Pud", Drivers: [16, 55, 18] }
-             ] */
+                { Player: "Nick", Drivers: [4, 11, 24] },
+                { Player: "Bridget", Drivers: [81, 63, 77] },
+                { Player: "DOD", Drivers: [1, 14, 22] },
+                { Player: "Logan", Drivers: [44, 10, 31] },
+                { Player: "Pud", Drivers: [55, 16, 23] }
+             ] 
         },
         {
             Name: "Japanese Grand Prix",
