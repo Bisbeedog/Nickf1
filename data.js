@@ -326,13 +326,13 @@ var data = {
         {
             Name: "United States Grand Prix",
             Date: "2023-10-22",
-            Finish: [1, 44, 4, 55, 11, 16, 63, 10, 18, 22, 23, 2, 27, 77, 24, 20, 3, 14, 81, 31],
+            Finish: [1, 4, 55, 11,  63, 10, 18, 22, 23, 2, 27, 77, 24, 20, 3, 14, 81, 31, 44, 16],
             Picks: [
                  { Player: "Nick", Drivers: [4, 11, 24] },
                  { Player: "Bridget", Drivers: [63, 77, 81] },
                  { Player: "DOD", Drivers: [1, 22, 14] },
-                 { Player: "Logan", Drivers: [44, 10, 31] },
-                 { Player: "Pud", Drivers: [55, 16, 23] }
+                 { Player: "Logan", Drivers: [10, 31, 44] },
+                 { Player: "Pud", Drivers: [55, 23, 16] }
              ] 
         },
         {
