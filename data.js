@@ -338,14 +338,14 @@ var data = {
         {
             Name: "Mexican Grand Prix",
             Date: "2023-10-29",
-/*             Finish: [63, 44, 55, 16, 14, 1, 11, 31, 77, 18, 5, 24, 47, 10, 23, 6, 22, 4, 20, 3 ],
+            Finish: [1, 44, 16, 55, 4, 63, 3, 81, 23, 31, 10, 22, 27, 77, 24, 2, 18, 14, 20, 11],
             Picks: [
-                 { Player: "Nick", Drivers: [11, 24, 4] },
-                 { Player: "Bridget", Drivers: [63, 77, 3] },
-                 { Player: "DOD", Drivers: [14, 1, 22] },
-                 { Player: "Logan", Drivers: [44, 5, 10] },
-                 { Player: "Pud", Drivers: [55, 16, 18] }
-             ] */
+                 { Player: "Nick", Drivers: [4, 24, 11] },
+                 { Player: "Bridget", Drivers: [63, 81, 77] },
+                 { Player: "DOD", Drivers: [1, 22, 14] },
+                 { Player: "Logan", Drivers: [44, 31, 10] },
+                 { Player: "Pud", Drivers: [16, 55, 23] }
+             ] 
         },
         {
             Name: "Grande Premio de Sao Paolo",
