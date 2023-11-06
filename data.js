@@ -350,14 +350,14 @@ var data = {
         {
             Name: "Grande Premio de Sao Paolo",
             Date: "2023-11-05",
- /*            Finish: [1, 16, 11, 55, 63, 4, 31, 18, 3, 5, 22, 24, 23, 10, 77, 47, 20, 44, 6, 14],
+            Finish: [1, 4, 14, 11, 18, 55, 10, 44, 22, 31, 2, 27, 3, 81, 63, 77, 24, 20, 23, 16],
             Picks: [
-                 { Player: "Nick", Drivers: [11, 4, 24] },
-                 { Player: "Bridget", Drivers: [63, 3, 77] },
-                 { Player: "DOD", Drivers: [1, 22, 14] },
-                 { Player: "Logan", Drivers: [5, 10, 44 ]},
-                 { Player: "Pud", Drivers: [16, 18, 55 ] }
-             ] */
+                 { Player: "Nick", Drivers: [4, 11, 24] },
+                 { Player: "Bridget", Drivers: [81, 63, 77] },
+                 { Player: "DOD", Drivers: [1, 14, 22] },
+                 { Player: "Logan", Drivers: [10, 44, 31 ]},
+                 { Player: "Pud", Drivers: [55, 23, 16 ] }
+             ] 
         },
         {
             Name: "Las Vegas Grand Prix",
