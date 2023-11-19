@@ -362,14 +362,14 @@ var data = {
         {
             Name: "Las Vegas Grand Prix",
             Date: "2023-11-18",
- /*            Finish: [1, 16, 11, 55, 63, 4, 31, 18, 3, 5, 22, 24, 23, 10, 77, 47, 20, 44, 6, 14],
+            Finish: [1, 16, 11, 31, 18, 55, 44, 63, 14, 81, 10, 23, 20, 3, 24, 2, 77, 22, 27, 4],
             Picks: [
-                 { Player: "Nick", Drivers: [11, 4, 24] },
-                 { Player: "Bridget", Drivers: [63, 3, 77] },
-                 { Player: "DOD", Drivers: [1, 22, 14] },
-                 { Player: "Logan", Drivers: [5, 10, 44 ]},
-                 { Player: "Pud", Drivers: [16, 18, 55 ] }
-             ] */
+                 { Player: "Nick", Drivers: [11, 24, 4] },
+                 { Player: "Bridget", Drivers: [63, 81, 77] },
+                 { Player: "DOD", Drivers: [1, 14, 22] },
+                 { Player: "Logan", Drivers: [44, 31, 10 ]},
+                 { Player: "Pud", Drivers: [16, 55, 23 ] }
+             ] 
         },
         {
             Name: "Abu Dhabi Grand Prix",
